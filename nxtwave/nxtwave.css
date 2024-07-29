@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+.torism-section1-bacimg{
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.card1{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.button1{
+    border: 0;
+    background-color:#25b1cc ;
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+}
+
+.section2-bac-img{
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png');
+    background-size: cover;
+    padding-bottom: 30px;
+    
+}
+.images{
+    height: 120px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.card2{
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.heading{
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.carousel-margin{
+    margin: 30px;
+}
+
+.detailhead{
+    margin:30px;
+}
+
+.detail-bac-img{
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png');
+    background-size: cover;
+}
