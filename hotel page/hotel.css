@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.sunrise-bg {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/flats-list-bg.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.sunrise-card-hm {
+    background-color: #ffffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-bottom: 30px;
+}
+
+.sunrise-head {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0px;
+    font-family: Bree Serif;
+    color: #f19116;
+}
+
+.sunrise-par {
+    font-family: Bree Serif;
+    color: #6c6b70;
+    text-align: center;
+}
+
+.sunrise-button {
+    background-color: #f19116;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 30px;
+    height: 30px;
+    width: 90px;
+}
+
+.sunrise-2-bg {
+    background-color: #222222;
+
+    padding: 20px;
+}
+
+.sunrise-2-head {
+    color: #f19116;
+    font-size: 30px;
+    font-family: Bree Serif;
+}
+
+.sunrise-card {
+    background-color: #fff;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.sunrise-card-img {
+    height: 150px;
+    width: 80px;
+}
+
+.sunrise-card-head {
+    color: #0f0e46;
+    font-size: 25px;
+    padding-left: 15px;
+    font-family: Bree Serif;
+    font-weight: bold;
+}
+
+.sunrise-card-par {
+    padding-left: 15px;
+    color: #6c6b70;
+    font-family: Bree Serif;
+    padding-right: 15px;
+}
+
+.sunrise-card-button {
+    background-color: #f19116;
+    border: none;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    height: 35px;
+    width: 90px;
+}
+
+.sunrise-flat-img {
+    height: 40vh;
+    width: 100vw;
+}
+
+.sunrise-flat-card {
+    background-color: #222222;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sunrise-flat-head {
+    color: #f19116;
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-family: Bree Serif;
+}
+
+.sunrise-location-icon {
+    height: 30px;
+}
+
+.sunrise-flat-loc {
+    padding-left: 10px;
+    color: #fff;
+    font-family: Bree Serif;
+}
+
+.sunrise-flat-button {
+    border: 0;
+    background-color: #f19116;
+    color: #fff;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
