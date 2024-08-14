@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.logo-img {
+    height: 60px;
+}
+
+.why-bg-image {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png');
+    background-size: cover;
+    height: 80vh;
+}
+
+.ban-head {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.ban-par {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.button-1 {
+    background-image: linear-gradient(#d0b200, #a58d00);
+    color: #fff;
+}
+
+.button-2 {
+    background-color: transparent;
+    color: #d0b200;
+    border: 1px solid #d0b200;
+}
+
+#sectionWhychooseus {
+    background-color: #f9fbfe;
+}
+
+.why-head {
+    color: #183b56;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+.why-par {
+    font-family: Roboto;
+    color: #5a7184;
+}
+
+.why-card {
+    background-color: #fff;
+    border-radius: 16px;
+    border-color: #e5eaf4;
+}
+
+.offer {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.card-head {
+    color: #323f4b;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.card-par {
+    color: #7b8794;
+    font-family: Roboto;
+}
+
+#sectionExploremenu {
+    background-color: #f9fbfe;
+}
+
+.menu-head {
+    color: #183b56;
+}
+
+.menu-card {
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.menu-card-img {
+    border-radius: 16px;
+}
+
+.menu-card-title {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 300;
+    color: #183b56
+}
+
+.menu-link {
+    color: #d0b200;
+}
+
+#sectionHealthy {
+    background-color: #f9fbfe;
+
+}
+
+.pay-img {
+    height: 50px;
+    padding-right: 20px;
+}
+
+.thank {
+    background-image: radial-gradient(#fff8db, #fae38c);
+}
+
+.gift-img {
+    height: 300px;
+}
+
+.icon {
+    height: 80px;
+    width: 80px;
+    color: #d0b200;
+    font-size: 30px;
+    margin: 15px;
+    background-color: #d0b2001a;
+    padding-top: 22px;
+    padding-right: 14px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    border-radius: 40px;
+}
+
+.gift-head {
+    color: #d0b200;
+}
