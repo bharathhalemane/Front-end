@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random bg generator</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20%;
+        background-color: white;
+    }
+    button {
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <button onclick="document.body.style.backgroundColor='#' + Math.floor(Math.random()*16777215).toString(16)">
+        Change Background
+    </button>
+</body>
+</html>

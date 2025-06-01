@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG Color</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+        margin-top: 20%;
+        background-color: #000;
+    }
+    input{
+        border-width: 2px;
+        border-radius: 10px;
+        width: 150px;
+        height: 100px;
+    }
+
+</style>
+
+<body>
+    <input type="color" id="colorPicker" oninput="document.body.style.backgroundColor=this.value">
+    
+</body>
+
+</html>

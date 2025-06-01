@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>30 Colored Blocks Example</title>
+  <style>
+    .row{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .block {
+      margin: 10px auto; /* Center the blocks horizontally */
+    }
+    .heading{
+        text-align: center;
+        margin-bottom: 50vh;
+        padding-top: 40vh;
+    }
+    .block-1 { width: 200px; height: 100px; background-color: #4CAF50; } /* Green */
+    .block-2 { width: 150px; height: 150px; background-color: #FF5722; } /* Orange */
+    .block-3 { width: 300px; height: 80px; background-color: #2196F3; } /* Blue */
+    .block-4 { width: 180px; height: 120px; background-color: #9C27B0; } /* Purple */
+    .block-5 { width: 220px; height: 90px; background-color: #FFC107; } /* Yellow */
+    .block-6 { width: 160px; height: 160px; background-color: #F44336; } /* Red */
+    .block-7 { width: 240px; height: 70px; background-color: #00BCD4; } /* Cyan */
+    .block-8 { width: 190px; height: 110px; background-color: #795548; } /* Brown */
+    .block-9 { width: 170px; height: 130px; background-color: #607D8B; } /* Blue Grey */
+    .block-10 { width: 210px; height: 95px; background-color: #E91E63; } /* Pink */
+    .block-11 { width: 230px; height: 85px; background-color: #3F51B5; } /* Indigo */
+    .block-12 { width: 140px; height: 140px; background-color: #009688; } /* Teal */
+    .block-13 { width: 250px; height: 60px; background-color: #FF9800; } /* Amber */
+    .block-14 { width: 165px; height: 145px; background-color: #673AB7; } /* Deep Purple */
+    .block-15 { width: 195px; height: 115px; background-color: #CDDC39; } /* Lime */
+    .block-16 { width: 175px; height: 135px; background-color: #FFEB3B; } /* Yellow */
+    .block-17 { width: 205px; height: 105px; background-color: #8BC34A; } /* Light Green */
+    .block-18 { width: 145px; height: 155px; background-color: #FF4081; } /* Pink */
+    .block-19 { width: 225px; height: 75px; background-color: #03A9F4; } /* Light Blue */
+    .block-20 { width: 155px; height: 145px; background-color: #FF5722; } /* Deep Orange */
+    .block-21 { width: 215px; height: 95px; background-color: #9E9E9E; } /* Grey */
+    .block-22 { width: 135px; height: 165px; background-color: #4CAF50; } /* Green */
+    .block-23 { width: 245px; height: 65px; background-color: #FFC107; } /* Amber */
+    .block-24 { width: 185px; height: 125px; background-color: #2196F3; } /* Blue */
+    .block-25 { width: 235px; height: 85px; background-color: #F44336; } /* Red */
+    .block-26 { width: 125px; height: 175px; background-color: #00BCD4; } /* Cyan */
+    .block-27 { width: 255px; height: 55px; background-color: #9C27B0; } /* Purple */
+    .block-28 { width: 195px; height: 115px; background-color: #FF9800; } /* Orange */
+    .block-29 { width: 225px; height: 85px; background-color: #607D8B; } /* Blue Grey */
+    .block-30 { width: 115px; height: 185px; background-color: #E91E63; } /* Pink */
+
+
+    @keyframes appear{
+        from{
+            opacity: 0;
+            scale: 0.5;
+            /*transform: translate(-100px); */
+            /* clip-path: inset(100% 100% 0 0); */
+        }
+        to{
+            opacity: 1;
+            scale: 1;
+            /* transform: translate(0px); */
+            /* clip-path: inset(0 0 0 0); */
+        }
+    }
+
+    .block{
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+  <div class="heading">
+    <h1>30 Colored Blocks Example</h1>
+    <p>This example demonstrates how to create 30 colored blocks using HTML and CSS.</p>
+  </div>
+
+  <div class="container">
+    <div class="row">
+        <div class="block block-1"></div>
+  <div class="block block-2"></div>
+  <div class="block block-3"></div>
+  <div class="block block-4"></div>
+  <div class="block block-5"></div>
+  <div class="block block-6"></div>
+  <div class="block block-7"></div>
+  <div class="block block-8"></div>
+  <div class="block block-9"></div>
+  <div class="block block-10"></div>
+  <div class="block block-11"></div>
+  <div class="block block-12"></div>
+  <div class="block block-13"></div>
+  <div class="block block-14"></div>
+  <div class="block block-15"></div>
+  <div class="block block-16"></div>
+  <div class="block block-17"></div>
+  <div class="block block-18"></div>
+  <div class="block block-19"></div>
+  <div class="block block-20"></div>
+  <div class="block block-21"></div>
+  <div class="block block-22"></div>
+  <div class="block block-23"></div>
+  <div class="block block-24"></div>
+  <div class="block block-25"></div>
+  <div class="block block-26"></div>
+  <div class="block block-27"></div>
+  <div class="block block-28"></div>
+  <div class="block block-29"></div>
+  <div class="block block-30"></div>
+    </div>
+
+  </div>
+</body>
+</html>
