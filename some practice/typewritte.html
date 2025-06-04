@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: inline-block;
+        }
+
+        .text{
+            font-size: 3em;
+            letter-spacing: 10px;
+            font-family: monospace;
+            border-right: 5px solid ;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 5s steps(30),
+                      cursor .4s step-end infinite alternate;
+        }
+
+        @keyframes cursor {
+            50% {
+                border-color: transparent;
+            }
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="text">Bharath Halemane H V</p>
+    </div>
+</body>
+</html>
