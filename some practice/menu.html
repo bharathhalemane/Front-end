@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar</title>
+    
+    
+</head>
+<style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: poppins, sans-serif;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #02072e;
+        }
+
+        nav{
+            position: relative;
+            width: 524px;
+            height: 50px;
+            background: #222;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav a{
+            position: relative;
+            display: inline-block;
+            color: #16e2db;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.2em;
+            padding: 0 23px;
+            z-index: 1;
+        }
+
+        nav span{
+            position: absolute;
+            width: 95px;            
+            height: 100%;
+            top: 0;
+            color: #fff;            
+            left: 0;
+            background: linear-gradient(45deg, #4f1919, #ff3333);
+            border-radius: 8px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        nav a:nth-child(1):hover~span{
+            left: 0;
+        }
+        nav a:nth-child(2):hover~span{
+            left: 95px;
+        }
+
+        nav a:nth-child(3):hover~span{
+            left: 190px;
+            width:115px;
+        }
+        nav a:nth-child(4):hover~span{
+            left: 300px;
+            width: 115px;
+        }
+        nav a:nth-child(5):hover~span{
+            left: 413px;
+            width: 110px;
+        }
+    </style>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Product</a>
+        <a href="#">Service </a>
+        <a href="#">Contact</a>        
+        <span></span>
+    </nav>
+</body>
+</html>
