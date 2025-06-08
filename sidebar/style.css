@@ -236,7 +236,8 @@ main p {
             height: 60px;
             width: auto;
             background-color: var(--hover-clr);
-            border-top: 1px solid var(--line-clr) display:flex;
+            border-top: 1px solid var(--line-clr);
+            display:flex;
             justify-content: center;
 
             >div {
