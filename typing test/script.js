@@ -15,6 +15,8 @@ let generatedQuoteValue = "";
 
 function resetBtn() {
     let time = 0;
+    quoteInputEl.value = "";
+    resultEl.textContent = "";
     let url = "https://apis.ccbp.in/random-quote";
     let options = {
         method: "GET"
